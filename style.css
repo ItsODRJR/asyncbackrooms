@@ -16,8 +16,7 @@ h2 {
   height: 250px;
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 45%;
-  right: 80%;
+  bottom: 5%;
   z-index: 1;
   transition: 0.2s;
 }
