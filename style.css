@@ -1,6 +1,24 @@
-p a:first-child img{
-  transition: .2s;
+img.pic{
+  transition: 0.2s;
 }
-p a:first-child img:hover{
+img.pic:hover{
   transform: scale(1.1);
 }
+
+img.pic:hover ~ h2{
+  color: rgb(255, 255, 255);
+  opacity: 100%;
+}
+
+h2 {
+  opacity: 0%;
+  width: 250px;
+  height: 250px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 45%;
+  right: 80%;
+  z-index: 1;
+  transition: 0.2s;
+}
+
